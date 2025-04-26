@@ -22,45 +22,10 @@ body {
 
 /* Style scrollbars for Webkit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
-  width: 8px; /* Width of the scrollbar */
+  display: none; /* Hide scrollbar for Webkit browsers */
 }
 
-::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Color of the track */
-  border-radius: 10px; /* Rounded corners for the track */
-}
-/* Dark mode scrollbar track */
-.dark ::-webkit-scrollbar-track {
-  background: #2d3748; /* Darker track for dark mode */
-}
-
-
-::-webkit-scrollbar-thumb {
-  background: #888; /* Color of the scrollbar thumb */
-  border-radius: 10px; /* Rounded corners for the thumb */
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555; /* Color of the thumb on hover */
-}
-
-/* Dark mode scrollbar thumb */
-.dark ::-webkit-scrollbar-thumb {
-  background: #718096; /* Lighter thumb for dark mode */
-}
-
-.dark ::-webkit-scrollbar-thumb:hover {
-  background: #a0aec0; /* Lighter thumb on hover for dark mode */
-}
-
-/* Style scrollbars for Firefox */
-/* Note: Firefox scrollbar styling is less customizable */
+/* Hide scrollbar for Firefox */
 html {
-  scrollbar-width: thin; /* "auto" or "thin" */
-  scrollbar-color: #888 #f1f1f1; /* thumb and track color */
-}
-
-/* Dark mode scrollbar for Firefox */
-.dark html {
-  scrollbar-color: #718096 #2d3748; /* Dark mode thumb and track color */
+  scrollbar-width: none;
 }
