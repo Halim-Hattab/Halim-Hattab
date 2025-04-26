@@ -27,21 +27,29 @@ const ContactSection: React.FC = () => {
             <p className="text-gray-600 dark:text-gray-400">{personalInfo.email}</p>
           </a>
           
-          <div className="flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300">
+          <a 
+            href={`tel:${personalInfo.phone}`}
+            className="flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300"
+          >
             <div className="w-12 h-12 flex items-center justify-center bg-teal-100 dark:bg-teal-900 rounded-full mb-4">
               <Phone className="w-6 h-6 text-teal-600 dark:text-teal-400" />
             </div>
             <h3 className="font-medium text-gray-900 dark:text-white mb-2">Phone</h3>
             <p className="text-gray-600 dark:text-gray-400">{personalInfo.phone}</p>
-          </div>
+          </a>
           
-          <div className="flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300">
+          <a 
+            href={personalInfo.linkedin} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300"
+          >
             <div className="w-12 h-12 flex items-center justify-center bg-teal-100 dark:bg-teal-900 rounded-full mb-4">
               <Linkedin className="w-6 h-6 text-teal-600 dark:text-teal-400" />
             </div>
             <h3 className="font-medium text-gray-900 dark:text-white mb-2">LinkedIn</h3>
-            <p className="text-gray-600 dark:text-gray-400">{personalInfo.linkedin}</p>
-          </div>
+            <p className="text-gray-600 dark:text-gray-400">View Profile</p> 
+          </a>
         </div>
       </div>
     </AnimatedSection>

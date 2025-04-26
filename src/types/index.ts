@@ -39,10 +39,18 @@ export interface PersonalInfo {
   linkedin: string;
 }
 
+export type MediaItem = {
+  type: 'image' | 'video';
+  src: string | { desktop: string; mobile: string }; // Can be a single URL or responsive URLs
+};
+
 export interface PortfolioItem {
   title: string;
   description: string;
-  type: 'image' | 'video';
-  url: string;
+  media: MediaItem[]; // Array to hold multiple media items
   tags: string[];
+  externalLink?: { // Optional external link
+    url: string;
+    text: string;
+  };
 }
