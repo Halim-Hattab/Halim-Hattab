@@ -5,7 +5,7 @@ export const personalInfo: PersonalInfo = {
   title: 'Technical Advisor',
   email: 'halimalhattab@gmail.com',
   phone: '+216 99 752 033',
-  linkedin: 'https://www.linkedin.com/in/halim-hattab/'
+  linkedin: 'https://www.linkedin.com/in/'
 };
 
 export const portfolioItems: PortfolioItem[] = [
@@ -13,10 +13,10 @@ export const portfolioItems: PortfolioItem[] = [
     title: '3D responsive background animation',
     description: 'A collection of custom-designed 3D responsive video animation background displaying the business Logo, along with supporting images.',
     media: [
-      { type: 'video', src: { desktop: '/Halim-Hattab/public/loop.mp4', mobile: '/Halim-Hattab/public/loopmobile.mp4' } },
-      { type: 'image', src: '/Halim-Hattab/public/object.png' },
-      { type: 'image', src: '/Halim-Hattab/public/solid.png' },
-      { type: 'image', src: '/Halim-Hattab/public/ui integration fo rmobile.png' }
+      { type: 'video', src: { desktop: '/public/loop.mp4', mobile: '/public/loopmobile.mp4' } },
+      { type: 'image', src: '/public/object.png' },
+      { type: 'image', src: '/public/solid.png' },
+      { type: 'image', src: '/public/ui integration fo rmobile.png' }
     ],
     tags: ['3D Printing', 'Blender', 'Product Design', 'UI/UX'],
     externalLink: {
@@ -28,10 +28,10 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Photorealistic Product Render',
     description: "A photorealistic 3D product render created in Blender for a client's advertising campaign, showcasing the new product in detail.",
     media: [
-      { type: 'video', src: '/Halim-Hattab/public/photorealistic-render.mp4' },
-      { type: 'video', src: '/Halim-Hattab/public/photorealistic-ren.mp4' },
-      { type: 'image', src: '/Halim-Hattab/public/screenviewsolid.png' },
-      { type: 'image', src: '/Halim-Hattab/public/screenviewtextured.png' }
+      { type: 'video', src: '/public/photorealistic-render.mp4' },
+      { type: 'video', src: '/public/photorealistic-ren.mp4' },
+      { type: 'image', src: '/public/screenviewsolid.png' },
+      { type: 'image', src: '/public/screenviewtextured.png' }
     ],
     tags: ['3D Rendering', 'Blender', 'Product Visualization', 'Client Work']
   },
@@ -39,7 +39,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Figma Based Website',
     description: 'A preview of a website design created in Figma.', // Updated description
     media: [
-      { type: 'image', src: '/Halim-Hattab/public/website.png' } // Updated image path
+      { type: 'image', src: '/public/website.png' } // Updated image path
     ],
     tags: ['Figma', 'Web Design', 'UI/UX'] // Updated tags
     // Removed externalLink to make it non-clickable
