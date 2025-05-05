@@ -18,9 +18,10 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onVisibilityChange }) => {
   // Updated job titles as requested
   const titles = [
     'Technical Advisor',
-    'Legal Intern',
+    'Administrative Assistant',
     'Content Moderator',
-    'Legal counsel'
+    'Legal counsel',
+    'Startup Founder'
   ];
   const name = personalInfo.name;
   const scrambleChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()';
