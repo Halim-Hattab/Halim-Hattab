@@ -365,7 +365,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onVisibilityChange }) => {
         
         <div className="border-t border-gray-600 pt-6 animate-slide-in-left">
           <p className="text-gray-400 mb-6 italic font-light text-lg">
-            "I connect people, tech, and ideas — across the cosmos."
+            "just as my title says, I can do it all"
           </p>
         </div>
       </div>
